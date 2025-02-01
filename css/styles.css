@@ -575,6 +575,14 @@ button {
 
 }
 
+.form-footer-input::placeholder {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
 .footer-input {
     display: flex;
     gap: 24px;
@@ -586,19 +594,16 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
     min-width: 165px;
     height: 40px;
-    margin-left: 24px;
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #ffffff;
     cursor: pointer;
     border: none;
 }
